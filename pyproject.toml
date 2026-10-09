@@ -1,0 +1,22 @@
+[project]
+name = "tp-formats-de-donnees"
+version = "1.0.0"
+description = "TP « Formats de données » (AMA) : lire, écrire et convertir CSV, Excel, JSON, Parquet et Delta Lake avec pandas, sur les taxis de New York."
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.0",
+    "pyarrow>=17.0",
+    "openpyxl>=3.1",
+    "python-calamine>=0.2",
+    "deltalake>=1.0",
+    "pyiceberg[sql-sqlite,pyarrow]>=0.9",
+    "charset-normalizer>=3.3",
+    "matplotlib>=3.8",
+    "requests>=2.32",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.2",
+    "pymongo>=4.8",
+    "python-dotenv>=1.0",
+    "jupyter>=1.1",
+    "ipykernel>=6.29",
+]

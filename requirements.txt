@@ -1,0 +1,18 @@
+# Dépendances du TP (pour ceux qui utilisent pip plutôt que uv)
+#   python -m venv .venv && source .venv/bin/activate   (Windows : .venv\Scripts\activate)
+#   pip install -r requirements.txt
+pandas>=3.0
+pyarrow>=17.0
+openpyxl>=3.1
+python-calamine>=0.2
+deltalake>=1.0
+pyiceberg[sql-sqlite,pyarrow]>=0.9
+charset-normalizer>=3.3
+matplotlib>=3.8
+requests>=2.32
+sqlalchemy>=2.0
+psycopg[binary]>=3.2
+pymongo>=4.8
+python-dotenv>=1.0
+jupyter>=1.1
+ipykernel>=6.29
